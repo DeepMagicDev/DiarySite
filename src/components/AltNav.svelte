@@ -1,10 +1,17 @@
+
 <script>
+  import { onMount } from 'svelte';
+
   let isMenuOpen = false;
 
   function toggleMenu() {
     isMenuOpen = !isMenuOpen;
-		console.log(isMenuOpen)
+    console.log("Menu toggled:", isMenuOpen);
   }
+
+  onMount(() => {
+    console.log("NavBar mounted");
+  });
 </script>
 
 <!-- navbar goes here -->
@@ -59,7 +66,7 @@
 			<div class="hidden md:flex items-center space-x-3">
 				<a
 					href="#"
-					class="flex items-center py-2 px-3 bg-rose-300 rounded-lg text-rose-900 hover:bg-rose-200"
+					class="flex items-center py-2 px-3 bg-rose-300 rounded-lg text-rose-900 hover:bg-rose-200 transition duration-300"
 					>Sign Up</a
 				>
 				<a
@@ -71,7 +78,7 @@
 
 			<!-- mobile button goes here -->
 			<div class="md:hidden flex items-center">
-				<button class="mobile-menu-button" on:click={toggleMenu}>
+				<button on:click={toggleMenu}>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -92,11 +99,11 @@
 	</div>
 
 	<!-- mobile menu -->
-	<div class="{isMenuOpen ? 'mobile-menu' : 'mobile-menu hidden'} ">
-		<a href="#" class="block py-2 px-4 text-sm hover:bg-orange-200">About</a>
-		<a href="#" class="block py-2 px-4 text-sm hover:bg-orange-200">Contact</a>
-		<a href="#" class="block py-2 px-4 text-sm hover:bg-orange-200">Sign In</a>
-		<a href="#" class="block py-2 px-4 text-sm hover:bg-orange-200">Sign Up</a>
+	<div class='{isMenuOpen ? 'mobile-menu' : 'mobile-menu hidden'} md:hidden' >
+		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-200">About</a>
+		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-200">Contact</a>
+		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-200">Sign In</a>
+		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-200">Sign Up</a>
 	</div>
 </nav>
 
