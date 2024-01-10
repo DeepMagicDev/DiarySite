@@ -1,0 +1,23 @@
+---
+import AltNav from '../components/AltNav.svelte';
+import Footer from '../components/Footer.astro'
+---
+
+<html lang="en"class="font-omnes">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="https://use.typekit.net/ilw5asz.css">
+		<title>Warm Journal</title>
+	</head>
+	<body class=" leading-loose">
+	  <AltNav client:load />
+		<slot />
+	  <Footer />	
+	</body>
+</html>
+
+
+<!-- TODO: make nav and footer a layout element -->
