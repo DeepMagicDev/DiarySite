@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				'omnes': ['Omnes Pro', 'sans-serif']
+				'omnes': ['Omnes-Pro', 'sans-serif'],
 			}
 		},
 	},

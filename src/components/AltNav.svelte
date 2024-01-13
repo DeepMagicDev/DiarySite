@@ -15,7 +15,7 @@
 </script>
 
 <!-- navbar goes here -->
-<nav class="bg-orange-100">
+<nav class="bg-orange-200">
 	<div class="max-w-6xl mx-auto px-4">
 		<!-- main flex container -->
 		<div class="flex justify-between">
@@ -100,10 +100,10 @@
 
 	<!-- mobile menu -->
 	<div class='{isMenuOpen ? 'mobile-menu' : 'mobile-menu hidden'} md:hidden' >
-		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-200">About</a>
-		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-200">Contact</a>
-		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-200">Sign In</a>
-		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-200">Sign Up</a>
+		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">About</a>
+		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Contact</a>
+		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Sign In</a>
+		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Sign Up</a>
 	</div>
 </nav>
 
