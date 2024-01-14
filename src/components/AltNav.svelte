@@ -65,7 +65,7 @@
 			<!-- secondary nav -->
 			<div class="hidden md:flex items-center space-x-3">
 				<a
-					href="#"
+					href="/signup"
 					class="flex items-center py-2 px-3 bg-rose-300 rounded-lg text-rose-900 hover:bg-rose-200 transition duration-300"
 					>Sign Up</a
 				>
