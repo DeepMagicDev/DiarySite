@@ -103,7 +103,7 @@
 		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">About</a>
 		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Contact</a>
 		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Sign In</a>
-		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Sign Up</a>
+		<a href="/signup" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Sign Up</a>
 	</div>
 </nav>
 
