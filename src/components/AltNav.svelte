@@ -23,7 +23,7 @@
 			<div class="flex space-x-3">
 				<!--logo-->
 				<div>
-					<a href="/index" class="flex items-center py-5 px-3 text-gray-700">
+					<a href="/" class="flex items-center py-5 px-3 text-gray-700">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
