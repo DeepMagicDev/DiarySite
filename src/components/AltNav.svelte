@@ -70,7 +70,7 @@
 					>Sign Up</a
 				>
 				<a
-					href="#"
+					href="/login"
 					class="flex items-center py-2 px-3 text-gray-700 hover:text-rose-900"
 					>Sign In</a
 				>
@@ -102,7 +102,7 @@
 	<div class='{isMenuOpen ? 'mobile-menu' : 'mobile-menu hidden'} md:hidden' >
 		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">About</a>
 		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Contact</a>
-		<a href="#" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Sign In</a>
+		<a href="/login" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Sign In</a>
 		<a href="/signup" class="block py-2 px-4 text-sm text-center hover:bg-orange-100">Sign Up</a>
 	</div>
 </nav>
