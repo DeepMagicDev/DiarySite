@@ -1,0 +1,33 @@
+
+---
+import Layout from '../components/Layout.astro'
+---
+<Layout>
+  <div class="p-4 h-screen flex justify-center">
+    <div class="w-5/6 mt-24">
+      <h2 class="text-2xl font-bold mb-4">Your Journal Entries</h2>
+      <div class="overflow-x-auto">
+        <table class="table w-full">
+          <!-- Table head -->
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Table row for each journal entry -->
+            <tr>
+              <td>Entry Title 1</td>
+              <td>
+                <a href="/entry-view" class="btn btn-xs btn-accent">View</a>
+                <a href="/entry-edit" class="btn btn-xs btn-primary">Edit</a>
+              </td>
+            </tr>
+            <!-- More entries -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</Layout>
