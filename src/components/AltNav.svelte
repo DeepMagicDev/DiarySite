@@ -15,7 +15,7 @@
 </script>
 
 <!-- navbar goes here -->
-<nav class="bg-orange-200">
+<nav class="bg-base-300">
 	<div class="max-w-6xl mx-auto px-4">
 		<!-- main flex container -->
 		<div class="flex justify-between">
@@ -66,7 +66,7 @@
 			<div class="hidden md:flex items-center space-x-3">
 				<a
 					href="/signup"
-					class="flex items-center py-2 px-3 bg-rose-300 rounded-lg text-rose-900 hover:bg-rose-200 transition duration-300"
+					class="flex items-center py-2 px-3 bg-primary rounded-lg text-rose-900 hover:bg-rose-200 transition duration-300"
 					>Sign Up</a
 				>
 				<a
