@@ -12,6 +12,7 @@ import Layout from '../components/Layout.astro'
           <thead>
             <tr>
               <th>Title</th>
+              <th>Privacy</th>
               <th>Actions</th>
             </tr>
           </thead>
@@ -19,6 +20,10 @@ import Layout from '../components/Layout.astro'
             <!-- Table row for each journal entry -->
             <tr>
               <td>Entry Title 1</td>
+              <td>
+                <span class="badge badge-accent">Public</span>
+                <!-- Or use 'badge-secondary' for private posts -->
+              </td>
               <td>
                 <a href="/entry-view" class="btn btn-xs btn-accent">View</a>
                 <a href="/entry-edit" class="btn btn-xs btn-primary">Edit</a>
