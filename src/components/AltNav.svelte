@@ -49,16 +49,6 @@
 
 				<!-- primary nav -->
 				<div class="hidden md:flex items-center space-x-1">
-					<a
-						href="#"
-						class="flex items-center py-2 px-3 text-gray-700 hover:text-rose-900"
-						>About</a
-					>
-					<a
-						href="#"
-						class="flex items-center py-2 px-3 text-gray-700 hover:text-rose-900"
-						>Contact</a
-					>
 				</div>
 			</div>
 
